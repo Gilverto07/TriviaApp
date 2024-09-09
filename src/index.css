@@ -35,12 +35,12 @@ code {
 }
 
 .trivia-container {
-  width: 80%; /* Adjust this percentage to control how much space the div takes up */
-  margin: 5% auto; /* This will center the div and leave gaps on the sides */
-  background-color: #ffffff; /* Background color of the div */
-  padding: 35px; /*Optional: Adds padding inside the div */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow around the div */
-  border-radius: 10px; /* Optional: Rounds the corners of the div */
+  width: 80%; 
+  margin: 5% auto; 
+  background-color: #ffffff;
+  padding: 35px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
 }
 
 .options{

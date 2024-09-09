@@ -7,18 +7,6 @@ function App() {
   const [frontPage, setFrontPage] = useState(true)
   const [questions, setQuestions] = useState([])
 
-    // useEffect(() =>{
-    //     const fetchQuestions = async () =>{
-    //         try{
-    //             const res = await fetch("https://opentdb.com/api.php?amount=5&category=15&difficulty=medium&type=multiple")
-    //             const data = await res.json()
-    //             setQuestions(data.results)
-    //         }catch(error){
-    //             console.log("Error fetching data: ", error)
-    //         }
-    //     }
-    //     fetchQuestions()
-    // },[])
 
     const fetchQuestions = async () =>{
       try{
